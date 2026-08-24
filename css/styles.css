@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Trebuchet MS', sans-serif;
+    background-color: #cccccc;
+}
+
+header {
+    background-color: #f8d7e3;
+    padding: 20px;
+    border-bottom: 2px solid #d66a92;
+      text-align: center;
+}
+header h1 {
+    margin: 0;
+    color:mediumvioletred;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+nav {
+    background-color: #eeeeee;
+    padding: 8px 15px;
+    border-bottom: 1px solid #cccccc;
+}
+nav a {
+    color: #c2185b;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+nav ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+#inicio {
+    min-height: 400px;
+}
+.bienvenida {
+    padding: 40px 20px;
+    text-align: center;
+}
+.bienvenida img {
+    width: 300px;
+    max-width: 100%;
+}
+.bienvenida a {
+    color: #c2185b;
+    text-decoration: none;
+}
+.bienvenida a:hover {
+    text-decoration: underline;
+}
+#productos {
+    padding: 30px;
+    margin: 20px;
+    border: 2px solid #d66a92;
+    text-align: center;
+}
+.productos {
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc;
+}
+.productos:nth-child(odd) {
+    background-color: #fce4ec;
+}
+
+.productos:nth-child(even) {
+    background-color: #f5f5f5;
+}
+.productos img {
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+}
+#productos ul {
+    list-style: none;
+    padding-left: 0;
+}
+footer {
+    background-color: #eeeeee;
+    padding: 20px;
+    margin-top: 20px;
+    border-top: 1px solid #cccccc;
+}
+footer a {
+    color: #c2185b;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+#contacto {
+    background-color: #eeeeee;
+    padding: 20px;
+    margin-top: 20px;
+    border-top: 1px solid #cccccc;
+}
