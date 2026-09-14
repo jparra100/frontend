@@ -21,37 +21,77 @@
 
 <main id="inicio">
         <section id="productos">
-            <h2>DESTACADOS DE GAME ZONE</h2>
+            <h2 class="titulo-productos">Productos game zone</h2>  
+
+            <div class="categorias">
+            <button>PC</button>
+            <button>Nintendo</button>
+            <button>Arcade</button>
+            </div>           
+
             <ul>
                 <li class="productos">
+
+                    <span class="etiqueta">OFERTA</span>
                     <h3>Minecraft </h3>
                     <img src="../assets/images/minecraft.webp" alt="Imagen del videojuego Minecraft">
-                    <p><strong>Disfruta de uno de los videojuegos más populares</strong></p>
-                    <p><strong>OFERTA</strong></p>
+                    <p>Despierta tu creatividad con Minecraft</p>
                     <p class="precio">$24.990</p>
+                    <button class="boton-comprar">Agregar al carrito</button>
 
                 </li>
 
                 <li class="productos">
+                  <span class="etiqueta">DESTACADO</span> 
                   <h3>Favorito del mes</h3>
-
                   <img src="../assets/images/pacman.jpg" alt="Imagen del videojuego Pac-Man">
-                  <p><strong> PacMan un clásico para disfrutar con tus amigos</strong></p>
+                  <p>El legendario juego clásico de maquinitas PAC-MAN</p>
                   <p class="precio">$19.990</p>
+                  <button class="boton-comprar">Agregar al carrito</button>
 
                 </li>
 
                 <li class="productos">
+                    <span class="etiqueta">MÁS VENDIDO</span>
                   <h3>¡Oferta Mario Kart!</h3>
                   <img src="../assets/images/mario-kart.jpg" alt="Imagen de la oferta de Mario Kart">
-                  <p><strong>Obten descuento en tu primera compra</strong></p>
+                  <p>¡Corre con Mario y sus amigos donde quieras y cuando quieras!</p>                    
                   <span class="precio anterior">$39.990</span>
                   <span class="precio">$29.990</span>
+
+                  <button class="boton-comprar">Agregar al carrito</button>
                 </li>
             </ul>
         </section>
     </main>
+<section class="juegos-api">
 
+    <h2>Más juegos</h2>
+
+    <div id="lista-juegos"></div>
+
+</section>
+<section class="suscripcion">
+
+    <h2>Recibe nuestras ofertas</h2>
+
+    <p>¡Suscríbete para recibir novedades y descuentos de Game Zone!</p>
+
+    <form id="formulario-suscripcion">
+
+        <input
+            type="email"
+            id="correo"
+            placeholder="Ingresa tu correo"
+        >
+
+        <button type="submit">Suscribirme</button>
+
+    </form>
+
+    <p id="mensaje-suscripcion"></p>
+
+</section>
 <footer id="contacto">
     <p>
         Contacto:
@@ -65,5 +105,7 @@
     <p><em>GameZone2026</em></p>
 
 </footer>
+
+<script src="../js/script.js"></script>
 </body>
 </html>
