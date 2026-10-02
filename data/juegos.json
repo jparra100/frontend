@@ -1,17 +1,63 @@
 [
     {
-        "nombre": "The Legend of Zelda",
+        "id": 1,
+        "nombre": "Minecraft",
+        "descripcion": "Despierta tu creatividad con Minecraft",
+        "categoria": "PC",
+        "precio": 24990,
+        "imagen": "minecraft",
+        "etiqueta": "OFERTA",
+        "seccion": "principal"
+    },
+    {
+        "id": 2,
+        "nombre": "Favorito del mes",
+        "descripcion": "El legendario juego clásico de maquinitas PAC-MAN",
+        "categoria": "Arcade",
+        "precio": 19990,
+        "imagen": "pacman",
+        "etiqueta": "DESTACADO",
+        "seccion": "principal"
+    },
+    {
+        "id": 3,
+        "nombre": "¡Oferta Mario Kart!",
+        "descripcion": "¡Corre con Mario y sus amigos donde quieras y cuando quieras!",
         "categoria": "Nintendo",
-        "precio": 49990
+        "precioAnterior": 39990,
+        "precio": 29990,
+        "imagen": "marioKart",
+        "etiqueta": "MÁS VENDIDO",
+        "seccion": "principal"
     },
     {
+        "id": 4,
+        "nombre": "The Legend of Zelda",
+        "descripcion": "Explora el reino de Hyrule en una gran aventura.",
+        "categoria": "Nintendo",
+        "precio": 49990,
+        "imagen": "portada",
+        "etiqueta": "",
+        "seccion": "mas-juegos"
+    },
+    {
+        "id": 5,
         "nombre": "Fortnite",
+        "descripcion": "Compite y construye para conseguir la victoria.",
         "categoria": "PC",
-        "precio": 23990
+        "precio": 23990,
+        "imagen": "portada",
+        "etiqueta": "",
+        "seccion": "mas-juegos"
     },
     {
+        "id": 6,
         "nombre": "Fall Guys",
+        "descripcion": "Supera pruebas divertidas y llega primero a la meta.",
         "categoria": "PC",
-        "precio": 35990
+        "precio": 35990,
+        "imagen": "portada",
+        "etiqueta": "",
+        "seccion": "mas-juegos"
     }
 ]
